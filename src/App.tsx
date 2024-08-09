@@ -21,8 +21,8 @@ export default function App() {
             <p>{name + " !"} Test</p>
             <p>{add(8, 9)}</p>
             <button>Button</button>
-            {myBlogEntry.title}
-            {myBlogEntry.text}
+            <p>{myBlogEntry.title}</p>
+            <p>{myBlogEntry.text}</p>
             <Header />
         </div>
     )
